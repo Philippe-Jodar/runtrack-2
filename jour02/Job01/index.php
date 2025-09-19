@@ -10,10 +10,6 @@ $title = "Job01";
 </head>
 <body>
 <?php
-/**Afficher tous les nombres compris entre 0 et 1337 en mettant un retour à la ligne entre
-chaque nombre (<br />).
-Le nombre 42 doit être en gras et souligné (<b><u>...).
-*/
 for ($x= 1; $x< 1337; $x++)
   {if ($x== 1337)
   {break;}
