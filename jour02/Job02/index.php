@@ -13,8 +13,8 @@ $title = "Job02";
     /**Afficher tous les nombres de 0 à 1337 compris SAUF 26, 37, 88, 1111 et 3233 en
 mettant un retour à la ligne entre chaque nombre (<br />). */
 
-for ($x = 1; $x <= 1337; $x++){
-  if ($x == 1337) break;
+for ($x = 0; $x <= 1337; $x++){
+  if ($x == 1338) break;
   if ($x == 26) continue;
   if ($x == 37) continue;
   if ($x == 88) continue;
