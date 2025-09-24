@@ -23,7 +23,7 @@ $title = "Job5";
 }
 for ($x = 2; $x <= 1000; $x++) {
     if (premier($x)) {
-        echo $x . "\n<br>";
+        echo $x . "<br>";
     }
 }
     ?>
