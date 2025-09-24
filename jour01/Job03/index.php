@@ -58,7 +58,7 @@ table, th, td {
         <td>$nomint</td>
         <td>$typint</td>
         <td>$valint</td>
-    <tr/>
+    </tr>
     <tr>
         <td>$nomfloat</td>
         <td>$typfloat</td>
