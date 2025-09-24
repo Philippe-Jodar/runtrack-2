@@ -18,7 +18,7 @@ for ($x = 0; $x <= 1337; $x++){
   if ($x == 26) continue;
   if ($x == 37) continue;
   if ($x == 88) continue;
-  if ($x == 1111) {continue;}
+  if ($x == 1111) continue;
   echo "$x <br>";
 }
 ?>
