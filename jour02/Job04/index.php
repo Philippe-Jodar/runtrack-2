@@ -6,20 +6,20 @@ $title = "Job04";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job04/title>
+    <title>Job04</title>
 </head>
 <body>
 <?php 
 for ($x= 0; $x< 101; $x++)
  {
     if ($x % 15 == 0) {
-        echo "FizzBuzz\n<br>";
+        echo "FizzBuzz<br>";
     } elseif ($x % 3 == 0) {
-        echo "Fizz\n<br>";
+        echo "Fizz<br>";
     } elseif ($x % 5 == 0) {
-        echo "Buzz\n<br>";
+        echo "Buzz<br>";
     } else {
-        echo $x . "\n<br>";
+        echo $x . "<br>";
     }
 }
 ?>
