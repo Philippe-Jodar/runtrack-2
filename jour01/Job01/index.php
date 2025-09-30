@@ -19,7 +19,7 @@ $title = "Job01";
     $val=6;
     echo $val;
     echo $val+4;
-    $myBool=true;
+    $myBool=false;
     echo $myBool;
     ?>
 </body>
