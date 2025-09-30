@@ -51,8 +51,8 @@
 </form>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["username"] ?? '';
-    $pass = $_POST["password"] ?? '';
+    $name = $_POST["username"] ?? "";
+    $pass = $_POST["password"] ?? "";
 if ($name === "John" && $pass === "Rambo") {
         echo "<p>C'est pas ma guerre</p>";
     } else {
