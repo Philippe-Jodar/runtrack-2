@@ -2,11 +2,10 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Formulaire POST en tableau</title>
     <style>
         table {
             border-collapse: collapse;
-            width: 60%;
+            width: 30%;
             margin-top: 20px;
         }
 
