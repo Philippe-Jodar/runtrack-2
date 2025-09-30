@@ -9,15 +9,7 @@ $title = "J4/Job03";
     <title>J4-Job03</title>
 </head>
 <body>
-    
-<!-- Développez un algorithme qui affiche le nombre d’arguments $_POST.
- Tips :
- Pour tester votre code, créez un formulaire html <form> de type POST avec différents
- champs <input> de type “text” et un <input> de type “submit” pour l’envoi.
- Vous pouvez ensuite afficher avec echo directement dans votre page par exemple :
- “Le nombre d’argument POST envoyé est : “-->
-
-<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
   <h2>Vos coordonnées</h2>
        <label for="nom">Nom : </label>
        <input type="text" name="nom" id="nom" /><br><br>
@@ -28,15 +20,15 @@ $title = "J4/Job03";
   <input type="submit">
 </form>
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === "POST") {
         $a = 0;
-        if (!empty($_POST['nom'])) {
+        if (!empty($_POST["nom"])) {
             $a++;
         }
-        if (!empty($_POST['prenom'])) {
+        if (!empty($_POST["prenom"])) {
             $a++;
         }
-        if (!empty($_POST['email'])) {
+        if (!empty($_POST["email"])) {
             $a++;
         }
         echo "<p>Le nombre d'arguments POST envoyés est : $a</p>";
