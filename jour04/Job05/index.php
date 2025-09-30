@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J4-Job06</title>
     <style>
         table {
             border-collapse: collapse;
