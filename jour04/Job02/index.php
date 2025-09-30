@@ -18,12 +18,10 @@ $title = "J4/Job02";
         <input type="submit" value="Envoyer">
     </form>
     <?php
-    // Vérifie s’il y a des paramètres GET
     if (!empty($_GET)) {
         echo "<h3>Paramètres reçus :</h3>";
         echo "<table border='1' cellpadding='5'>";
         echo "<tr><th>Argument</th><th>Valeur</th></tr>";
-        // Parcours chaque argument GET
         foreach ($_GET as $argument => $valeur) {
             echo "<tr>";
             echo "<td>" . $argument . "</td>";
