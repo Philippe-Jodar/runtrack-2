@@ -12,17 +12,15 @@ $title = "Job01";
     <?php 
     $str="LaPlateforme";
     $str2="Vive ";
-    $str3="!"; ?>
-    <?php
+    $str3="!"; 
     echo $str2;
     echo $str;
-    echo $str3; ?>
-    <?php
+    echo $str3;
     $val=6;
     echo $val;
-    echo $val+4; ?>
-    <?php
-    $myBool=false;
-    echo $myBool; ?>
+    echo $val+4;
+    $myBool=true;
+    echo $myBool;
+    ?>
 </body>
 </html>
