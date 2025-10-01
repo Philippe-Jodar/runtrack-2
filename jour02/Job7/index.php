@@ -5,28 +5,27 @@ $title = "Job7";
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job7</title>
+    <title><?php echo $title; ?></title>
 </head>
 <body>
+<pre>
 <?php
-$hauteur=5;
-$d=$hauteur-1;
-$c=1;
-for($x=0 ; $x<$hauteur ; $x++)
-{
-for($a=1 ; $a<=$d ; $a++)
-{
-echo "";
+$hauteur = 5;
+$output = "";
+for ($i = 1; $i < $hauteur; $i++) {
+    $output .= str_repeat(" ", $hauteur - $i);
+    $output .= "/";
+    $innerSpaces = ($i - 1) * 2;
+    $output .= str_repeat(" ", $innerSpaces);
+    $output .= "\\";
+    $output .= "\n";
 }
-for($b=1 ; $b<=$c ; $b++)
-{
-echo "*";
-}
-echo "<br/>";
-$d--;
-$c+=2;
-} 
+$output .= "/";
+$output .= str_repeat("_", ($hauteur - 1) * 2);
+$output .= "\\";
+echo $output;
 ?>
+</pre>
 </body>
 </html>
+

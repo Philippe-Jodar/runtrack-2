@@ -14,7 +14,6 @@ $title = "Job03";
 $voyelle= ["a", "e", "i", "o", "y", "I"];
 for ($a= 0; $a< strlen($str); $a++) {
     $caractere= $str[$a];
-    // Vérifier si le caractère est une voyelle
     if (in_array($caractere, $voyelle)) {
         echo $caractere;
     }

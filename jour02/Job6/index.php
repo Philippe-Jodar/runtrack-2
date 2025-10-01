@@ -14,7 +14,7 @@ $title = "Job6";
     $hauteur= 10;
     for ($a = 0; $a < $hauteur; $a++) {
     for ($b = 0; $b < $largeur; $b++) {
-        echo "*";
+        echo "#";
     }
     echo "<br>";
 }

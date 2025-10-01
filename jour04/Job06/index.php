@@ -19,7 +19,7 @@
             for ($i = 0; $i < $longueur; $i++) {
                 $car = $nombre[$i];
                 if ($i == 0 && $car == '-') {
-                    continue; // accepte le signe -
+                    continue;
                 }
                 if ($car < '0' || $car > '9') {
                     $est_entier = false;
