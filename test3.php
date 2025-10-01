@@ -33,7 +33,7 @@ for ($a = 0; $a < SIZE; $a++) {
     for ($b = 0; $b < SIZE; $b++) {
         // Afficher '*' pour les conditions du motif
         if ($b == $a || $b == (SIZE - $a - 1) || $a == (SIZE / 2)) {
-            echo "*";
+            echo "#";
         } else {
             echo " ";
         }
