@@ -20,7 +20,8 @@ if (isset($_POST['submit'])) {
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Gestion prénoms en session</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jour08-Job03</title>
 </head>
 <body>
     <form method="post">
@@ -32,7 +33,6 @@ if (isset($_POST['submit'])) {
     <?php if (isset($error)) {
         echo "<p style='color:red;'>$error</p>";
     } ?>
-    <h2>Liste des prénoms :</h2>
     <ul>
         <?php
         if (!empty($_SESSION['prenoms'])) {
