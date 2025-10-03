@@ -1,0 +1,10 @@
+body {
+    background-color: lightgreen;
+    font-family: 'Courier New', monospace;
+    color: darkgreen;
+}
+button {
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+}

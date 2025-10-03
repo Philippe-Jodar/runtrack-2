@@ -21,7 +21,7 @@ echo  "Nombre de visites : " . $nbvisites;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>j8-Job02(Cookie)</title>
+    <title>jour08-Job02(Cookie)</title>
 </head>
 <body>
     <form method="post">

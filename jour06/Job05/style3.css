@@ -1,0 +1,10 @@
+body {
+    background-color: lightcoral;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+button {
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+}

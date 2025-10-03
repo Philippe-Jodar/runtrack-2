@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    color: darkblue;
+}
+button {
+    background-color: navy;
+    color: white;
+    padding: 8px;
+}
