@@ -6,7 +6,7 @@ if (isset($_POST['deco'])) {
 }
 if (isset($_POST['connexion']) && !empty($_POST['prenom'])) {
     $prenom = htmlspecialchars($_POST['prenom']);
-    setcookie("prenom", $prenom, time() + 3600); // Cookie valable 1h
+    setcookie("prenom", $prenom, time() + 3600);
     header("Location: " . $_SERVER['PHP_SELF']);
     exit;
 }
