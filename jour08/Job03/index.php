@@ -7,7 +7,6 @@ if (isset($_POST['reset'])) {
     $_SESSION['prenoms'] = [];
 }
 if (isset($_POST['submit'])) {
-    // On valide seulement si prénom non vide
     if (!empty(trim($_POST['prenom']))) {
         $prenom = trim($_POST['prenom']);
         $_SESSION['prenoms'][] = htmlspecialchars($prenom);
